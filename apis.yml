@@ -1,7 +1,19 @@
 aid: nofence
 name: Nofence
-description: Nofence is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nofence is a Norwegian agritech company (founded 2011, headquartered in
+  Batnfjordsøra, Norway) that produces the world's first commercial virtual
+  fencing system for livestock. Solar-powered GPS collars worn by cattle, sheep
+  and goats keep animals inside virtual pastures that farmers draw on a map,
+  with the collar teaching animals boundaries through audio cues before a mild
+  electric pulse. The system is operated entirely from a mobile app (iOS and
+  Android) and a web portal, communicating over GPS and the cellular network
+  with no base stations or buried wire. Farmers get real-time animal location,
+  boundary/escape push notifications, herd replay, grazing-history and
+  multi-species management. Nofence is a consumer/farmer-facing product: as of
+  this profile it publishes a mobile app and web portal but no public developer
+  API, SDK, or API documentation surface. It is a portfolio company of
+  Speedinvest, added to the API Evangelist network for tracking.
 url: https://raw.githubusercontent.com/api-evangelist/nofence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +21,57 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.nofence.com/favicon.ico
 tags:
 - Company
+- Agritech
+- Livestock
+- Virtual Fencing
+- GPS Tracking
+- IoT
+- Agriculture
+- Precision Farming
+- Animal Welfare
+- Mobile App
 apis: []
+common:
+- type: DomainSecurity
+  url: security/nofence-domain-security.yml
+- type: Website
+  url: https://www.nofence.com/
+- type: Support
+  url: https://www.nofence.com/knowledge-hub/help-and-support
+- type: HelpCenter
+  url: https://www.nofence.com/knowledge-hub/help-and-support
+- type: Blog
+  url: https://www.nofence.com/knowledge-hub
+- type: MobileApp
+  name: Nofence for iOS
+  url: https://apps.apple.com/us/app/nofence/id1374817857
+- type: MobileApp
+  name: Nofence for Android
+  url: https://play.google.com/store/apps/details?id=com.nofence.android
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

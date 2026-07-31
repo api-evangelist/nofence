@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.nofence.com/.well-known/
+host: https://www.nofence.com
+note: >-
+  Nofence publishes a consumer marketing site plus a mobile app and web portal;
+  no /.well-known/ discovery documents are served. All probed paths returned 404.
+  Absence recorded as valid data.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
