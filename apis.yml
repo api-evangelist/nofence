@@ -49,13 +49,13 @@ modified: '2026-07-20'
 image: https://www.nofence.com/favicon.ico
 tags:
 - Company
-- AgriTech
+- AgTech
 - Livestock
 - Virtual Fencing
 - GPS Tracking
 - IoT
 - Agriculture
-- Precision Farming
+- Precision Agriculture
 - Animal Welfare
 - Mobile App
 tags_raw:
@@ -69,6 +69,7 @@ tags_raw:
 - Precision Farming
 - Animal Welfare
 - Mobile App
+- AgriTech
 apis: []
 common:
 - type: DomainSecurity
